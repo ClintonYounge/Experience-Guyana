@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  list-style: none;
+}
+
+.kaieteur-div img {
+  width: 100%;
+  position: absolute;
+  mix-blend-mode: color-burn;
+  opacity: 50%;
+  height: 575px;
+}
+.patio {
+  width: 100%;
+  mix-blend-mode: color-burn;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 575px;
+}
+.nav-header {
+  display: flex;
+  align-items: center;
+  width: auto;
+  margin: auto;
+  height: 50px;
+}
+
+.navbar {
+  width: 90%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.mobile-menu {
+  color: #ec5242;
+  visibility: hidden;
+  width: 90%;
+  display: flex;
+  list-style: none;
+  height: auto;
+}
+
+.nav-items {
+  margin-right: 5%;
+  align-self: center;
+}
