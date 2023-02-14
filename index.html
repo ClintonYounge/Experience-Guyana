@@ -11,6 +11,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="./js/speakers.js" defer></script>
+    <link rel="stylesheet" href="./mobile-menu/mobile-menu.css">
+    <script src="./mobile-menu/mobile-menu.js" defer></script>
 </head>
 <body>
     <section class="patio">
@@ -21,7 +24,7 @@
         <header class="nav-header">
             <nav class="navbar">
                 <div class="menu-icon">
-                    <box-icon name='menu' animation='spin' rotate='180' size="lg"></box-icon>
+                    <box-icon name='menu' animation='tada' size="lg" class=".hamburger"></box-icon>
                 </div>
                 
                 <ul class="mobile-menu">
@@ -33,8 +36,121 @@
                     <li class="nav-items">News</li>
                 </ul>
 
+                <div id="theMenu">
+                    <ul class="nav-items2">
+                        <li class="navs"><a href="./index.html">Home</a></li>
+                        <li class="navs"><a href="./about page/about.html">About</a></li>
+                        <li class="navs">Program</li>
+                        <li class="navs">Join</li>
+                        <li class="navs">Sponsor</li>
+                        <li class="navs">News</li>
+                        <box-icon name='x-circle' animation='spin' color='#ec2110' id="xBtn"></box-icon>
+                </div>
             </nav>
         </header>
+        
+        <section class="introduction">
+            <div class="title-div">
+                <p class="welcome">"WELCOME TO 592"</p>
+                <h1>YOUR CHANCE TO EXPERIENCE GUYANA IS HERE!</h1>
+            </div>
+            <div class="intro-paragraph">
+                <p>
+                    Guyana, "Land of Many Waters". Bordered by the Atlantic Ocean, 
+                    diversified by many cultures. Come experience the culture of 592. 
+                    A memorable experience waiting to happen!
+                </p>
+            </div>
+            <div>
+                <section class="setting">
+                    <div class="event-date">
+                        <p>2023.02.23 (THUR)</p>
+                    </div>
+                    <div class="event-venue">
+                        <p>@ Guyana National Park (Georgetown)</p>
+                    </div>
+                </section>
+            </div>
+        </section>
     </section>
+    <section class="main-program">
+        
+        <div class="program-head">
+            <h1>Main Program</h1>
+        </div>
+        <section class="programs">
+            <div class="program-card">
+                <ul class="left-content">
+                    <li><box-icon name='microphone' type='solid' class="card-icon"></box-icon></box-icon></li>
+                    <li><p>Opening<br>Speech</p></li>
+                </ul>
+                <div class="right-content">
+                    <p>Listen to the event's introductory speech by guest 
+                        speaker, The Guyanese Critics.</p>
+                </div>
+            </div>
+            <div class="program-card">
+                <ul class="left-content">
+                    <li><box-icon name='map' class="card-icon"></box-icon></li>
+                    <li><p>Have A<br>Tour</p></li>
+                </ul>
+                <div class="right-content">
+                    <p>Have a look of 592 as we take you on a trip to all the landmarks and 
+                        monuments in Georgetown. </p>
+                </div>
+            </div>
+            <div class="program-card">
+                <ul class="left-content">
+                    <li><box-icon name='bowl-rice' type='solid' class="card-icon"></box-icon></box-icon></box-icon></li>
+                    <li><p>Cuisine<br>Tasting</p></li>
+                </ul>
+                <div class="right-content">
+                    <p>Have a taste of 592. Savor local cuisines from all corners of the country</p>
+                </div>
+            </div>
+            <div class="program-card">
+                <ul class="left-content">
+                    <li><box-icon name='microphone' type='solid' class="card-icon"></box-icon></box-icon></li>
+                    <li><p>Live<br>Performance</p></li>
+                </ul>
+                <div class="right-content">
+                    <p>Have a listen of 592. Listen as Poonam Singh sings her hit single "Guyana" </p>
+                </div>
+            </div>
+            <div class="program-card">
+                <ul class="left-content">
+                    <li><box-icon type='solid' name='shopping-bags' class="card-icon"></box-icon></li>
+                    <li><p>Souvenir<br>Shopping</p></li>
+                </ul>
+                <div class="right-content">
+                    <p>Take Guyana home with you! Art's and crafts by our many people.</p>
+                </div>
+            </div>
+            <div class="program-card">
+                <ul class="left-content">
+                    <li><box-icon name='microphone' type='solid' class="card-icon"></box-icon></box-icon></li>
+                    <li><p>Closing<br>Speech</p></li>
+                </ul>
+                <div class="right-content">
+                    <p>
+                        Closing remarks by His Excellency, voice of the people, 
+                        Dr. Irfan Ali. President of the Cooperative Republic of Guyana.
+                    </p>
+                </div>
+            </div>
+            <div class="enroll-section">
+                <div class="enroll-button">
+                    <p>Experience Guyana!</p>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="featured">
+        <h3>Featured Guides</h3>
+        <div class="speakers" id="speakers">
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

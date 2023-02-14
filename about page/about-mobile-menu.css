@@ -1,0 +1,55 @@
+.hamburger, .menu-icon {
+    cursor: pointer;
+  }
+  
+  .nav-items2 {
+    position: fixed;
+    bottom: 70%;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding-bottom: 15px;
+    top: 10%;
+    width: 30%;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .navs {
+    text-align: center;
+    margin-top: 15%;
+    z-index: 100;
+    list-style: none;
+    text-decoration: none;
+    color: #ea1313;
+    margin-bottom: 10%;
+    font-size: 30px;
+    margin-left: 190%;
+  }
+  
+  #xBtn {
+    margin-top: -5%;
+    color: #ea1313;
+    margin-left: 140%;
+    position: fixed;
+  
+    cursor: pointer;
+  }
+  
+  #theMenu {
+    display: none;
+    overflow: hidden;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    padding-left: 5%;
+    height: 200%;
+    background-color: whitesmoke;
+    padding-top: 5%;
+    margin-left: -5%;
+    z-index: 9;
+  }

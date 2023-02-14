@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+.about-kaieteur-div img {
+  width: 100%;
+  position: absolute;
+  mix-blend-mode: color-burn;
+  opacity: 50%;
+  height: 575px;
+}
+
+.about-patio {
+  width: 100%;
+  mix-blend-mode: color-burn;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 575px;
+}
+
+.about-nav-header {
+  display: flex;
+  align-items: center;
+  width: auto;
+  margin: auto;
+  height: 50px;
+}
+
+.about-navbar {
+  position: fixed;
+  left: 5%;
+  width: 90%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+  
+.about-mobile-menu {
+  visibility: hidden;
+  color: #ec5242;
+  width: 90%;
+  display: flex;
+  list-style: none;
+  height: auto;
+}
+
+.about-nav-items {
+  margin-right: 5%;
+  align-self: center;
+}
+
+.about-introduction {
+  width: 90%;
+  margin: auto;
+  margin-top:5%;
+}
+
+.about-title-div {
+  color: #ec5242;
+  text-align: left;
+  margin: auto;
+}
+
+.about-welcome {
+  letter-spacing: 0.5ch;
+  font-size: 20px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.about-title-div h1 {
+  width: 80%;
+  margin: auto;
+  margin-top: 2%;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 1000;
+}
+
+.about-intro-paragraph {
+  text-align: center;
+  width: auto;
+  padding: 10px;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  background-color: white;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: whitesmoke;
+}

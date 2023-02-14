@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
   list-style: none;
+  text-decoration: none;
 }
 
 .kaieteur-div img {
@@ -13,6 +14,7 @@
   opacity: 50%;
   height: 575px;
 }
+
 .patio {
   width: 100%;
   mix-blend-mode: color-burn;
@@ -20,6 +22,7 @@
   background-repeat: no-repeat;
   height: 575px;
 }
+
 .nav-header {
   display: flex;
   align-items: center;
@@ -29,15 +32,17 @@
 }
 
 .navbar {
+  position: fixed;
+  left: 5%;
   width: 90%;
   display: flex;
   margin: auto;
   justify-content: space-between;
 }
-
+  
 .mobile-menu {
-  color: #ec5242;
   visibility: hidden;
+  color: #ec5242;
   width: 90%;
   display: flex;
   list-style: none;
@@ -47,4 +52,243 @@
 .nav-items {
   margin-right: 5%;
   align-self: center;
+}
+
+.introduction {
+  width: 90%;
+  margin: auto;
+  margin-top:5%;
+}
+
+.title-div {
+  color: #ec5242;
+  text-align: left;
+  margin: auto;
+}
+
+.welcome {
+  letter-spacing: 0.5ch;
+  font-size: 20px;
+}
+
+.title-div h1 {
+  margin-top: 2%;
+  font-size: 40px;
+  font-weight: 1000;
+}
+
+.intro-paragraph {
+  width: auto;
+  padding: 10px;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  background-color: white;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: whitesmoke;
+}
+
+.setting {
+  margin-top: 2%;
+}
+
+.event-date {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.event-venue {
+  font-size: 20px;
+  margin-top: 1%;
+}
+
+.main-program {
+  background-image: url("/images/Guyana-1823-Monument.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+}
+
+.monument-div {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  opacity: 90%;
+  mix-blend-mode: color-burn;
+}
+
+.monument-div img {
+  width: 100%;
+  opacity: 90%;
+}
+
+.program-head {
+  width: 90%;
+  color: white;
+  margin: auto;
+  height: 60px;
+}
+
+.program-head h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.program-card {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+  height: 130px;
+  align-items: center;
+  border: 1px solid grey;
+}
+
+.left-content {
+  display: flex;
+  align-items: center;
+  width: 190px;
+  margin-right: 5%;
+  margin-left: 3%;
+}
+
+.left-content li p {
+  color: #ec5242;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.card-icon {
+  height: 70px;
+  width: 40px;
+}
+
+.right-content {
+  width: 60%;
+  margin: auto;
+  color: white;
+  font-size: 16px;
+}
+
+.enroll-section {
+  height: 100px;
+}
+
+.enroll-button {
+  color: white;
+  height: 70px;
+  width: 70%;
+  background-color: #ec5242;
+  margin: auto;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.enroll-button p {
+  font-size: 20px;
+  font-weight: 600;
+  margin: auto;
+  padding: 20px;
+}
+
+.guide-section-heading {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.featured {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 0;
+  padding-bottom: 50px;
+}
+
+.featured .speakers {
+  display: grid;
+  margin-top: 5%;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  -moz-column-gap: 30px;
+  column-gap: 5%;
+  row-gap: 50px;
+  margin-bottom: 40px;
+}
+
+.featured .speakers .speaker {
+  display: flex;
+}
+
+.featured .speakers .speaker img {
+  width: 100px;
+  margin-right: 15px;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+
+.featured .speakers .speaker .image {
+  position: relative;
+}
+
+.featured .speakers .speaker .image::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 40px;
+  height: 1px;
+  
+  opacity: 0.7;
+  transition: 0.3s ease-in-out;
+}
+
+.featured .speakers .speaker .image::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 1px;
+  height: 40px;
+  
+  opacity: 0.7;
+  transition: 0.3s ease-in-out;
+}
+
+.featured .speakers .speaker span {
+  width: 250px;
+}
+
+.featured .speakers .speaker span p {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.featured .speakers .speaker span p:nth-child(2) {
+  color: #ec5242;
+}
+
+.featured .speakers .speaker:hover img {
+  transform: translateX(-2px) translateY(-2px);
+}
+
+.featured .speakers .speaker:hover .image::after {
+  top: -8px;
+  left: -8px;
+}
+
+.featured .speakers .speaker:hover .image::before {
+  top: -8px;
+  left: -8px;
+}
+
+.featured button {
+  display: none;
 }

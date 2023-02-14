@@ -1,3 +1,56 @@
+@media screen and (max-width: 785px) {
+  .mobile-menu {
+    visibility: none;
+  }
+
+  .menu-icon {
+    visibility: visible;
+  }
+
+  .featured {
+    padding: 20px 0;
+  }
+
+  .featured .speakers {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+
+  .featured .speakers .speaker {
+    margin: 10px 10px;
+  }
+
+  .featured .speakers .speaker .image::after {
+    top: -5px;
+    left: -5px;
+    opacity: 0.3;
+  }
+
+  .featured .speakers .speaker .image::before {
+    top: -5px;
+    left: -5px;
+    opacity: 0.3;
+  }
+
+  .featured .speakers .speaker span {
+    width: 70%;
+    max-width: 300px;
+  }
+
+  .featured button {
+    display: block;
+    width: 90%;
+    padding: 10px 0;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.246);
+    margin-top: 40px;
+  }
+
+  .featured button .rotateArrow {
+    transform: rotateZ(180deg);
+  }
+}
+
 @media screen and (min-width: 768px) {
   .mobile-menu {
     visibility: visible;
