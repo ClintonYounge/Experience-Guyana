@@ -19,6 +19,10 @@
   cursor: pointer;
 }
 
+.nav-items2 a {
+  color: #ea1313;
+}
+
 .navs {
   text-align: center;
   margin-top: 15%;
