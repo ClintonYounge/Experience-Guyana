@@ -1,6 +1,4 @@
-const moreSpeakers = document.getElementById('moreSpeakers');
-const speakers = document.getElementById('speakers');
-const otherSpeakers = document.getElementById('otherSpeakers');
+const guides = document.getElementById('guides');
 
 const guidesArray = [
   {
@@ -34,17 +32,17 @@ const guidesArray = [
     description: 'Master of his craft. Ivan Sancho will showcase the skill of craftmaking only a man of his calibur and experience can showcase.',
   },
   {
-    name: 'His Excellency, President Irfan Ali',
-    picture: 'images/His-Excellency.png',
+    name: 'His Excellency, President Irfaan Ali',
+    picture: 'images/His-Excellency.png',   
     profession: 'President of Guyana',
-    description: 'Excellent knowledge of JavaScript/TypeScript, HTML and CSS. Provides mentorship and supervise developers',
+    description: 'His Excellency, Dr. Mohamed Irfaan Ali, 10th and current president of Guyana since 2020.',
   },
 ];
 
 window.addEventListener('load', (() => {
-  let toAdd = '';
+  let content = '';
   guidesArray.forEach((guide) => {
-    toAdd += `<div class="speaker">
+    content += `<div class="guide">
                 <div class="image">
                     <img src="${guide.picture}" alt="Image of an Islamic speaker">
                 </div>
@@ -55,6 +53,13 @@ window.addEventListener('load', (() => {
                 </span>
                </div>`;
   });
-  speakers.innerHTML = toAdd;
-  toAdd = '';
+  guides.innerHTML = content;
+  content = '';
 }));
+
+const bottomRight = document.querySelector('.bottom-right p');
+
+const mediaQuery = window.matchMedia('(min-width: 785px)')
+if (mediaQuery.matches) {
+  bottomRight.innerHTML = '2023, some rights reserved. This is a capstone project that shows my current level as it relates to web development.'
+}

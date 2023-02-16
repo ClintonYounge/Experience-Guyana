@@ -11,7 +11,7 @@
   width: 100%;
   position: absolute;
   mix-blend-mode: color-burn;
-  opacity: 50%;
+  opacity: 30%;
   height: 575px;
 }
 
@@ -29,14 +29,17 @@
   width: auto;
   margin: auto;
   height: 50px;
+  margin-left: 5%;
 }
 
 .navbar {
+  background-color: #ffffff;
+  opacity: 90%;
   position: fixed;
   left: 5%;
-  width: 90%;
+  width: 100%;
   display: flex;
-  margin: auto;
+  margin-left: -5%;
   justify-content: space-between;
 }
   
@@ -106,6 +109,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: auto;
+  mix-blend-mode: color-burn;
 }
 
 .monument-div {
@@ -223,22 +227,22 @@
   margin-bottom: 40px;
 }
 
-.featured .speakers .speaker {
+.featured .speakers .guide {
   display: flex;
 }
 
-.featured .speakers .speaker img {
+.featured .speakers .guide img {
   width: 100px;
   margin-right: 15px;
   position: relative;
   transition: 0.3s ease-in-out;
 }
 
-.featured .speakers .speaker .image {
+.featured .speakers .guide .image {
   position: relative;
 }
 
-.featured .speakers .speaker .image::after {
+.featured .speakers .guide .image::after {
   content: "";
   position: absolute;
   top: -10px;
@@ -250,7 +254,7 @@
   transition: 0.3s ease-in-out;
 }
 
-.featured .speakers .speaker .image::before {
+.featured .speakers .guide .image::before {
   content: "";
   position: absolute;
   top: -10px;
@@ -262,29 +266,29 @@
   transition: 0.3s ease-in-out;
 }
 
-.featured .speakers .speaker span {
+.featured .speakers .guide span {
   width: 250px;
 }
 
-.featured .speakers .speaker span p {
+.featured .speakers .guide span p {
   font-size: 12px;
   margin-top: 10px;
 }
 
-.featured .speakers .speaker span p:nth-child(2) {
+.featured .speakers .guide span p:nth-child(2) {
   color: #ec5242;
 }
 
-.featured .speakers .speaker:hover img {
+.featured .speakers .guide:hover img {
   transform: translateX(-2px) translateY(-2px);
 }
 
-.featured .speakers .speaker:hover .image::after {
+.featured .speakers .guide:hover .image::after {
   top: -8px;
   left: -8px;
 }
 
-.featured .speakers .speaker:hover .image::before {
+.featured .speakers .guide:hover .image::before {
   top: -8px;
   left: -8px;
 }
@@ -292,3 +296,4 @@
 .featured button {
   display: none;
 }
+ 
