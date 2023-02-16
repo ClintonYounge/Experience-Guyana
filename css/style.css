@@ -11,13 +11,12 @@
   width: 100%;
   position: absolute;
   mix-blend-mode: color-burn;
-  opacity: 30%;
+  opacity: 20%;
   height: 575px;
 }
 
 .patio {
   width: 100%;
-  mix-blend-mode: color-burn;
   background-size: cover;
   background-repeat: no-repeat;
   height: 575px;
@@ -83,8 +82,6 @@
 .intro-paragraph {
   width: auto;
   padding: 10px;
-  margin-top: 4%;
-  margin-bottom: 4%;
   background-color: white;
   border: 1px solid rgb(255, 255, 255);
   background-color: whitesmoke;
@@ -109,7 +106,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: auto;
-  mix-blend-mode: color-burn;
 }
 
 .monument-div {
