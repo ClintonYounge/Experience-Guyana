@@ -153,7 +153,8 @@
     justify-content: space-around;
   }
 
-  .partners ul img, .partners img {
+  .partners img,
+  .partners ul img {
     width: 300px;
     margin: 5%;
     height: 100px;

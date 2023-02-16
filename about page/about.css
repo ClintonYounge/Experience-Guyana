@@ -177,12 +177,12 @@ footer {
   color: white;
 }
 
-.partners-top, 
+.partners-top,
 .partners-bottom {
   display: flex;
 }
 
-.partners-top img, 
+.partners-top img,
 .partners-bottom img {
   width: 40%;
   margin: 5%;
