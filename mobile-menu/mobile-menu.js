@@ -4,20 +4,20 @@ const xBtn = document.getElementById('xBtn');
 const navLinks = document.querySelectorAll('.navs');
 const introductionSection = document.querySelector('.introduction');
 const mainProg = document.querySelector('.main-program');
-const featuredSection = document.querySelector('.featured')
+const featuredSection = document.querySelector('.featured');
 
 function openMenu() {
   menu.style.display = 'block';
-  introductionSection.style.display = 'none'
-  mainProg.style.display = 'none'
-  featuredSection.style.display = 'none'
+  introductionSection.style.display = 'none';
+  mainProg.style.display = 'none';
+  featuredSection.style.display = 'none';
 }
 
 function closeMenu() {
   menu.style.display = 'none';
-  introductionSection.style.display = 'block'
-  mainProg.style.display = 'block'
-  featuredSection.style.display = 'block'
+  introductionSection.style.display = 'block';
+  mainProg.style.display = 'block';
+  featuredSection.style.display = 'block';
 }
 
 menuBtn.addEventListener('click', openMenu);

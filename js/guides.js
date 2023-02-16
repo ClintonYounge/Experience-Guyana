@@ -17,7 +17,7 @@ const guidesArray = [
     name: 'Delvin Adams',
     picture: 'images/Delvin-Adams-Chef.jpg',
     profession: 'Master Chef',
-    description: "Master of the kitchen, savior our tastebuds have been waiting for. The chef that'll have you taste Guyana."
+    description: "Master of the kitchen, savior our tastebuds have been waiting for. The chef that'll have you taste Guyana.",
   },
   {
     name: 'Poonam Singh',
@@ -33,7 +33,7 @@ const guidesArray = [
   },
   {
     name: 'His Excellency, President Irfaan Ali',
-    picture: 'images/His-Excellency.png',   
+    picture: 'images/His-Excellency.png',
     profession: 'President of Guyana',
     description: 'His Excellency, Dr. Mohamed Irfaan Ali, 10th and current president of Guyana since 2020.',
   },
@@ -59,7 +59,7 @@ window.addEventListener('load', (() => {
 
 const bottomRight = document.querySelector('.bottom-right p');
 
-const mediaQuery = window.matchMedia('(min-width: 785px)')
+const mediaQuery = window.matchMedia('(min-width: 785px)');
 if (mediaQuery.matches) {
-  bottomRight.innerHTML = '2023, some rights reserved. This is a capstone project that shows my current level as it relates to web development.'
+  bottomRight.innerHTML = '2023, some rights reserved. This is a capstone project that shows my current level as it relates to web development.';
 }

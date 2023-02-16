@@ -40,7 +40,7 @@
   margin: auto;
   justify-content: space-between;
 }
-  
+
 .about-mobile-menu {
   visibility: hidden;
   color: #ec5242;
@@ -58,7 +58,7 @@
 .about-introduction {
   width: 90%;
   margin: auto;
-  margin-top:5%;
+  margin-top: 5%;
 }
 
 .about-title-div {
@@ -89,10 +89,7 @@
   text-align: center;
   width: 90%;
   padding: 10px;
-  margin-top: 5%;
-  margin: auto;
-  margin-bottom: 4%;
-  background-color: white;
+  margin: 5% auto 4% auto;
   border: 1px solid rgb(255, 255, 255);
   background-color: whitesmoke;
 }
@@ -140,14 +137,14 @@
   font-size: 20px;
   margin-bottom: 5%;
 }
+
 .past-event-head .tail {
   margin-bottom: 5%;
 }
 
 .past-event-images {
-  margin-top: 5%;
   width: 85%;
-  margin: auto;
+  margin: 5% auto auto auto;
 }
 
 .image1 {
@@ -180,11 +177,13 @@ footer {
   color: white;
 }
 
-.partners-top, .partners-bottom {
+.partners-top, 
+.partners-bottom {
   display: flex;
 }
 
-.partners-top img, .partners-bottom img {
+.partners-top img, 
+.partners-bottom img {
   width: 40%;
   margin: 5%;
   height: 100px;

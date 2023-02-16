@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -32,7 +34,7 @@
 }
 
 .navbar {
-  background-color: #ffffff;
+  background-color: #fff;
   opacity: 90%;
   position: fixed;
   left: 5%;
@@ -41,7 +43,7 @@
   margin-left: -5%;
   justify-content: space-between;
 }
-  
+
 .mobile-menu {
   visibility: hidden;
   color: #ec5242;
@@ -59,7 +61,7 @@
 .introduction {
   width: 90%;
   margin: auto;
-  margin-top:5%;
+  margin-top: 5%;
 }
 
 .title-div {
@@ -82,7 +84,6 @@
 .intro-paragraph {
   width: auto;
   padding: 10px;
-  background-color: white;
   border: 1px solid rgb(255, 255, 255);
   background-color: whitesmoke;
 }
@@ -155,6 +156,13 @@
   margin-left: 3%;
 }
 
+.enroll-button p {
+  font-size: 20px;
+  font-weight: 600;
+  margin: auto;
+  padding: 20px;
+}
+
 .left-content li p {
   color: #ec5242;
   font-size: 20px;
@@ -185,13 +193,6 @@
   margin: auto;
   margin-top: 5%;
   text-align: center;
-}
-
-.enroll-button p {
-  font-size: 20px;
-  font-weight: 600;
-  margin: auto;
-  padding: 20px;
 }
 
 .guide-section-heading {
@@ -245,7 +246,6 @@
   left: -10px;
   width: 40px;
   height: 1px;
-  
   opacity: 0.7;
   transition: 0.3s ease-in-out;
 }
@@ -257,7 +257,6 @@
   left: -10px;
   width: 1px;
   height: 40px;
-  
   opacity: 0.7;
   transition: 0.3s ease-in-out;
 }
@@ -292,4 +291,3 @@
 .featured button {
   display: none;
 }
- 

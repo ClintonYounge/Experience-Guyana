@@ -1,6 +1,6 @@
 @media screen and (max-width: 785px) {
   .about-mobile-menu {
-    visibility: none;
+    visibility: hidden;
   }
 
   .about-menu-icon {
@@ -42,10 +42,11 @@
     justify-content: space-around;
   }
 
-  .image1, .image2 {
+  .image1, 
+  .image2 {
     width: 45%;
   }
-  
+
   .logo-image {
     width: 30%;
     height: 250px;
@@ -74,7 +75,7 @@
 
   .social-list li {
     margin-left: 1%;
-    margin-right: 3%
+    margin-right: 3%;
   }
 
   .logo {
@@ -87,12 +88,12 @@
   }
 
   a {
-    color: #ec5242;;
+    color: #ec5242;
   }
 
   .about-navbar {
     z-index: 1;
-    background-color: whitesmoke ;
+    background-color: whitesmoke;
     position: fixed;
     left: 5%;
     height: 50px;

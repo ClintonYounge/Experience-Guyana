@@ -1,7 +1,8 @@
-.hamburger, .about-menu-icon {
-    cursor: pointer;
-  }
-  
+.hamburger, 
+.about-menu-icon {
+  cursor: pointer;
+}
+
 .nav-items2 {
   position: fixed;
   bottom: 70%;
@@ -50,7 +51,6 @@
   height: 100%;
   width: 100%;
   padding-left: 5%;
-  height: 200%;
   background-color: whitesmoke;
   padding-top: 5%;
   margin-left: -5%;
