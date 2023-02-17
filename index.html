@@ -16,51 +16,54 @@
     <script src="./mobile-menu/mobile-menu.js" defer></script>
 </head>
 <body>
+    <header class="nav-header">
+        <nav class="navbar">
+
+            <div class="menu-icon">
+                <box-icon name='menu' size="md" class=".hamburger"></box-icon>
+            </div>
+
+            <section class="desktop-menu">
+                <div class="social">
+                    <ul class="social-list">
+                        <li>
+                            <box-icon name='facebook-circle' color="#fff" type='logo'></box-icon>
+                        </li>
+                        <li>
+                            <box-icon type='logo' color="#fff" name='twitter'></box-icon>
+                        </li>
+                        <li>English</li>
+                        <li>My Page</li>
+                        <li>Logout</li>
+                    </ul>
+                </div>
+    
+                <div class="lower-nav">
+                    <li class="logo"><img src="./images/left-logo.png" alt=""></li>
+                    <ul class="mobile-menu">
+                        <li class="nav-items"><a href="./about.html">About</a></li>
+                        <li class="nav-items">Program</li>
+                        <li class="nav-items">Join</li>
+                        <li class="nav-items">Sponsor</li>
+                        <li class="nav-items">News</li>
+                    </ul>
+                </div>
+            </section>
+
+            <div id="theMenu">
+                <ul class="nav-items2">
+                    <li class="navs"><a href="./about.html">About</a></li>
+                    <li class="navs">Program</li>
+                    <li class="navs">Join</li>
+                    <li class="navs">Sponsor</li>
+                    <li class="navs">News</li>
+                    <box-icon name='x-circle' animation='spin' color='#ec2110' id="xBtn"></box-icon>
+            </div>
+        </nav>
+    </header>
+
     <section class="patio">
-        <div class="kaieteur-div">
-            <img src="./images/Kaieteur-Falls-Guyana.png" alt="Image of Kaieteur Falls">
-        </div>
-
-        <div class="social">
-            <ul class="social-list">
-                <li>
-                    <box-icon name='facebook-circle' type='logo'></box-icon>
-                </li>
-                <li>
-                    <box-icon type='logo' name='twitter'></box-icon>
-                </li>
-                <li>English</li>
-                <li>My Page</li>
-                <li>Logout</li>
-            </ul>
-        </div>
-        
-        <header class="nav-header">
-            <nav class="navbar">
-                <div class="menu-icon">
-                    <box-icon name='menu' size="lg" class=".hamburger"></box-icon>
-                </div>
-                <li class="logo"><img src="./images/left-logo.png" alt=""></li>
-                
-                <ul class="mobile-menu">
-                    <li class="nav-items"><a href="./about-page/about.html">About</a></li>
-                    <li class="nav-items">Program</li>
-                    <li class="nav-items">Join</li>
-                    <li class="nav-items">Sponsor</li>
-                    <li class="nav-items">News</li>
-                </ul>
-
-                <div id="theMenu">
-                    <ul class="nav-items2">
-                        <li class="navs"><a href="./about-page/about.html">About</a></li>
-                        <li class="navs">Program</li>
-                        <li class="navs">Join</li>
-                        <li class="navs">Sponsor</li>
-                        <li class="navs">News</li>
-                        <box-icon name='x-circle' animation='spin' color='#ec2110' id="xBtn"></box-icon>
-                </div>
-            </nav>
-        </header>
+       
         
         <section class="introduction">
             <div class="title-div">
@@ -86,15 +89,16 @@
             </div>
         </section>
     </section>
+
     <section class="main-program">
-        
         <div class="program-head">
             <h1>Main Program</h1>
         </div>
+
         <section class="programs">
             <div class="program-card">
                 <ul class="left-content">
-                    <li><box-icon name='microphone' type='solid' class="card-icon"></box-icon></li>
+                    <li><box-icon name='microphone' color="#fff" class="card-icon"></box-icon></li>
                     <li><p>Opening<br>Speech</p></li>
                 </ul>
                 <div class="right-content">
@@ -104,7 +108,7 @@
             </div>
             <div class="program-card">
                 <ul class="left-content">
-                    <li><box-icon name='map' class="card-icon"></box-icon></li>
+                    <li><box-icon name='map' color="#fff" class="card-icon"></box-icon></li>
                     <li><p>Have A<br>Tour</p></li>
                 </ul>
                 <div class="right-content">
@@ -114,7 +118,7 @@
             </div>
             <div class="program-card">
                 <ul class="left-content">
-                    <li><box-icon name='bowl-rice' type='solid' class="card-icon"></box-icon></li>
+                    <li><box-icon name='bowl-rice' color="#fff" type='solid' class="card-icon"></box-icon></li>
                     <li><p>Cuisine<br>Tasting</p></li>
                 </ul>
                 <div class="right-content">
@@ -123,7 +127,7 @@
             </div>
             <div class="program-card">
                 <ul class="left-content">
-                    <li><box-icon name='microphone' type='solid' class="card-icon"></box-icon></li>
+                    <li><box-icon name='microphone' color="#fff" class="card-icon"></box-icon></li>
                     <li><p>Live<br>Performance</p></li>
                 </ul>
                 <div class="right-content">
@@ -132,7 +136,7 @@
             </div>
             <div class="program-card">
                 <ul class="left-content">
-                    <li><box-icon type='solid' name='shopping-bags' class="card-icon"></box-icon></li>
+                    <li><box-icon type='solid' name='shopping-bags' color="#fff" class="card-icon"></box-icon></li>
                     <li><p>Souvenir<br>Shopping</p></li>
                 </ul>
                 <div class="right-content">
@@ -141,22 +145,22 @@
             </div>
             <div class="program-card">
                 <ul class="left-content">
-                    <li><box-icon name='microphone' type='solid' class="card-icon"></box-icon></li>
+                    <li><box-icon name='microphone' color="#fff" class="card-icon"></box-icon></li>
                     <li><p>Closing<br>Speech</p></li>
                 </ul>
                 <div class="right-content">
                     <p>
-                        Closing remarks by His Excellency, voice of the people, 
-                        Dr. Irfan Ali. President of the Cooperative Republic of Guyana.
+                        Closing remarks by His Excellency,
+                        Dr. Irfaan Ali. President of the Cooperative Republic of Guyana.
                     </p>
                 </div>
             </div>
-            <div class="enroll-section">
-                <div class="enroll-button">
-                    <p>Experience Guyana!</p>
-                </div>
-            </div>
         </section>
+        <div class="enroll-section">
+            <div class="enroll-button">
+                <p>Experience Guyana!</p>
+            </div>
+        </div>
     </section>
 
     <section class="featured">
@@ -166,20 +170,15 @@
         </div>
     </section>
 
+    <div class="partners">
+        <img class="mobile-partner" src="./images/mobile-partner.png" alt="">
+        <img class="desktop-partner" src="./images/partner.png" alt="">
+    </div>
+
     <footer>
-        <div class="footer-top">
-            <h2>Partners</h2>
-            <div class="partners">
-                <ul>
-                    <li><img src="/images/Exxon-Mobil.jpg" alt=""></li>
-                    <li><img src="/images/Massy-logo.jpg" alt=""></li>
-                    <li><img src="/images/Banks-DIH.jpg" alt=""></li>
-                    <li><img src="/images/Ministry-Of-Tourism.jpg" alt=""></li>
-                </ul>
-            </div>
-        </div>
         <div class="footer-bottom">
             <div class="bottom-left">
+                <img src="./images/left-logo.png" alt="">
                 <p>experience guyana <br>come 23rd february, 2023</p>
             </div>
             <div class="bottom-right">

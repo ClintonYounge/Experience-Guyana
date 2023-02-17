@@ -137,6 +137,7 @@ Feel free to check the [issues page](../../issues/).
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 > Many thanks to [Microverse](https://www.microverse.org/) for teaching me all I know about programming.
+> Thanks to Cindy Shin, the author of the original design!
 
 <!-- LICENSE -->
 

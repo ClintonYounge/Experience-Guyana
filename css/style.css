@@ -9,59 +9,72 @@
   text-decoration: none;
 }
 
-.kaieteur-div img {
+.navbar {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-icon {
+  padding-left: 5%;
+  position: fixed;
   width: 100%;
-  position: absolute;
-  mix-blend-mode: color-burn;
-  opacity: 20%;
-  height: 575px;
+  background-color: white;
+}
+
+.social {
+  background-color: #272a31;
+  width: 100%;
+}
+
+.social-list {
+  margin-left: 58%;
+  height: 100%;
+  width: 40%;
+  display: flex;
+}
+
+.social-list li {
+  color: white;
+  margin-left: 5%;
+}
+
+.mobile-menu {
+  display: flex;
+  width: 50%;
+  margin-left: 50%;
+  align-items: center;
+}
+
+.mobile-menu li {
+  margin-left: 5%;
+}
+
+.logo img {
+  height: 100%;
+}
+
+.lower-nav {
+  background-color: white;
+  display: flex;
+  height: 40px;
+}
+
+.desktop-menu {
+  display: none;
 }
 
 .patio {
   width: 100%;
+  background-image: url("/images/about-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 575px;
-}
-
-.nav-header {
-  display: flex;
-  align-items: center;
-  width: auto;
-  margin: auto;
-  height: 50px;
-  margin-left: 5%;
-}
-
-.navbar {
-  background-color: #fff;
-  opacity: 90%;
-  position: fixed;
-  left: 5%;
-  width: 100%;
-  display: flex;
-  margin-left: -5%;
-  justify-content: space-between;
-}
-
-.mobile-menu {
-  visibility: hidden;
-  color: #ec5242;
-  width: 90%;
-  display: flex;
-  list-style: none;
-  height: auto;
-}
-
-.nav-items {
-  margin-right: 5%;
-  align-self: center;
+  height: max-content;
 }
 
 .introduction {
   width: 90%;
   margin: auto;
-  margin-top: 5%;
+  padding: 10% 0px;
 }
 
 .title-div {
@@ -103,25 +116,10 @@
 }
 
 .main-program {
-  background-image: url("/images/Guyana-1823-Monument.jpg");
+  background-image: url("/images/main-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: auto;
-}
-
-.monument-div {
-  position: absolute;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  opacity: 90%;
-  mix-blend-mode: color-burn;
-}
-
-.monument-div img {
-  width: 100%;
-  opacity: 90%;
 }
 
 .program-head {
@@ -143,7 +141,7 @@
   display: flex;
   justify-content: space-between;
   margin-top: 5%;
-  height: 130px;
+  height: auto;
   align-items: center;
   border: 1px solid grey;
 }
@@ -195,21 +193,12 @@
   text-align: center;
 }
 
-.guide-section-heading {
-  width: 90%;
-  margin: auto;
-  text-align: center;
-  font-size: 25px;
-  margin-bottom: 5%;
-  margin-top: 5%;
-}
-
 .featured {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 20px 0;
+  padding: 30px 0;
   padding-bottom: 50px;
 }
 
@@ -219,7 +208,7 @@
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   -moz-column-gap: 30px;
-  column-gap: 5%;
+  column-gap: 20%;
   row-gap: 50px;
   margin-bottom: 40px;
 }
@@ -229,7 +218,7 @@
 }
 
 .featured .speakers .guide img {
-  width: 100px;
+  width: 150px;
   margin-right: 15px;
   position: relative;
   transition: 0.3s ease-in-out;
@@ -262,11 +251,11 @@
 }
 
 .featured .speakers .guide span {
-  width: 250px;
+  width: 300px;
 }
 
 .featured .speakers .guide span p {
-  font-size: 12px;
+  font-size: 18px;
   margin-top: 10px;
 }
 
@@ -288,6 +277,42 @@
   left: -8px;
 }
 
-.featured button {
+.intro-paragraph {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.footer-bottom {
+  margin-top: -5px;
+  display: flex;
+}
+
+.bottom-left {
+  display: flex;
+  height:60px;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-left img {
+  height: 100%;
+  margin-right: 1%;
+}
+
+.bottom-right  {
+  align-self: center;
+}
+
+.partners {
+  width: 100%;
+}
+
+.mobile-partner {
+  width: 100%;
+}
+
+.desktop-partner {
+  width: 100%;
   display: none;
 }

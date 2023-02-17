@@ -1,38 +1,16 @@
-@media screen and (max-width: 785px) {
-  .about-mobile-menu {
-    visibility: hidden;
-  }
-
-  .about-menu-icon {
-    visibility: visible;
-  }
-
-  .social {
-    display: none;
-  }
-
-  .logo {
-    display: none;
-  }
-}
-
 @media screen and (min-width: 785px) {
-  .about-mobile-menu {
-    visibility: visible;
-  }
-
-  .about-menu-icon {
+  .menu-icon {
     display: none;
   }
 
-  .footer-top {
-    display: none;
-  }
-
-  .footer-bottom {
-    background-color: rgb(33, 30, 30);
+  .desktop-menu {
+    display: block;
+    position: fixed;
     width: 100%;
-    color: aliceblue;
+  }
+
+  .about-introduction {
+    padding: 10% 0%;
   }
 
   .past-event-images {
@@ -47,65 +25,34 @@
     width: 45%;
   }
 
+  .image1 img,
+  .image2 img {
+    height: 220px;
+  }
+
   .logo-image {
-    width: 30%;
-    height: 250px;
-  }
-
-  .bottom-left {
-    font-size: 25px;
-    text-align: center;
-  }
-
-  .bottom-right p {
     width: 60%;
-  }
-
-  .social {
-    width: 100%;
-  }
-
-  .social-list {
-    position: fixed;
-    background-color: rgb(230, 16, 16);
-    width: 100%;
-    display: flex;
-    padding-left: 63%;
-  }
-
-  .social-list li {
-    margin-left: 1%;
-    margin-right: 3%;
-  }
-
-  .logo {
-    width: 70%;
-    margin-left: 5%;
-  }
-
-  .logo img {
-    height: 50px;
+    height: 250px;
   }
 
   a {
     color: #ec5242;
   }
 
-  .about-navbar {
-    z-index: 1;
-    background-color: whitesmoke;
-    position: fixed;
-    left: 5%;
-    height: 50px;
-    width: 110%;
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    margin-left: -7.5%;
+  .mobile-partner {
+    display: none;
   }
 
-  .about-nav-items {
-    margin-right: 8%;
-    color: black;
+  .desktop-partner {
+    display: block;
+  }
+
+  .bottom-left img {
+    margin-top: 1%;
+  }
+
+  .bottom-right {
+    width: 30%;
+    margin-left: 10%;
   }
 }

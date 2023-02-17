@@ -1,4 +1,4 @@
-const menuBtn = document.querySelector('.about-menu-icon');
+const menuBtn = document.querySelector('.menu-icon');
 const menu = document.getElementById('theMenu');
 const xBtn = document.getElementById('xBtn');
 const navLinks = document.querySelectorAll('.navs');
