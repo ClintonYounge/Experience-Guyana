@@ -1,0 +1,72 @@
+@media screen and (min-width: 785px) {
+  .menu-icon {
+    display: none;
+  }
+
+  .desktop-menu {
+    display: block;
+    position: fixed;
+    width: 100%;
+  }
+
+  .social-list {
+    margin-left: 66%;
+  }
+
+  .campaign {
+    padding: 1%;
+    color: #ec5242;
+    border: 3.5px solid #ec5242;
+  }
+
+  .campaign:hover {
+    cursor: pointer;
+  }
+
+  .about-introduction {
+    padding: 10% 0%;
+  }
+
+  .past-event-images {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+  }
+
+  .image1,
+  .image2 {
+    width: 45%;
+  }
+
+  .image1 img,
+  .image2 img {
+    height: 220px;
+  }
+
+  .logo-image {
+    width: 60%;
+    height: 250px;
+  }
+
+  a {
+    color: #ec5242;
+  }
+
+  .mobile-partner {
+    display: none;
+  }
+
+  .desktop-partner {
+    display: block;
+  }
+
+  .bottom-left img {
+    margin-top: 1%;
+  }
+
+  .bottom-right {
+    width: 30%;
+    margin-left: 10%;
+  }
+}

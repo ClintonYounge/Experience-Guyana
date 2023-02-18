@@ -1,0 +1,164 @@
+@media screen and (max-width: 785px) {
+  .featured {
+    padding: 20px 0;
+  }
+
+  .featured .speakers {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+
+  .featured .speakers .guide {
+    margin: 10px 10px;
+  }
+
+  .featured .speakers .guide .image::after {
+    top: -5px;
+    left: -5px;
+    opacity: 0.3;
+  }
+
+  .featured .speakers .guide .image::before {
+    top: -5px;
+    left: -5px;
+    opacity: 0.3;
+  }
+
+  .featured .speakers .guide span {
+    width: 70%;
+    max-width: 300px;
+  }
+}
+
+@media screen and (min-width: 785px) {
+  .menu-icon {
+    display: none;
+  }
+
+  .desktop-menu {
+    display: block;
+    position: fixed;
+    width: 100%;
+  }
+
+  .social-list {
+    margin-left: 66%;
+  }
+
+  .campaign {
+    display: none;
+    padding: 1%;
+    color: #ec5242;
+    border: 3.5px solid #ec5242;
+  }
+
+  .campaign:hover {
+    cursor: pointer;
+  }
+
+  a {
+    color: #ec5242;
+  }
+
+  .intro-paragraph {
+    width: 50%;
+    margin-top: 1%;
+  }
+
+  .title-div h1 {
+    font-size: 60px;
+    width: 70%;
+  }
+
+  .programs {
+    display: flex;
+    width: 99%;
+    margin-left: 1%;
+  }
+
+  .program-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    margin-right: 1%;
+    overflow: hidden;
+  }
+
+  .program-card:hover {
+    border: 2px solid white;
+  }
+
+  .left-content {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    text-align: center;
+  }
+
+  .right-content p {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .left-content li p {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  .right-content {
+    width: 90%;
+  }
+
+  .enroll-section {
+    margin-top: -2%;
+  }
+
+  .mobile-partner {
+    display: none;
+  }
+
+  .desktop-partner {
+    display: block;
+  }
+
+  .bottom-left img {
+    margin-top: 2%;
+  }
+
+  .featured .speakers .guide span p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .featured .speakers .guide img {
+    width: 150px;
+  }
+
+  .featured .speakers .guide span p {
+    font-size: 18px;
+  }
+
+  .campaign {
+    display: block;
+  }
+
+  .featured .speakers {
+    column-gap: 20%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .right-content {
+    width: 100%;
+  }
+
+  .right-content p {
+    font-size: 12px;
+  }
+
+  .left-content li p {
+    font-size: 15px;
+  }
+}
