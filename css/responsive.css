@@ -1,29 +1,29 @@
-@media screen and (max-width: 785px){
+@media screen and (max-width: 785px) {
   .featured {
     padding: 20px 0;
   }
-  
+
   .featured .speakers {
     grid-template-columns: 1fr;
     row-gap: 30px;
   }
-  
+
   .featured .speakers .guide {
     margin: 10px 10px;
   }
-  
+
   .featured .speakers .guide .image::after {
     top: -5px;
     left: -5px;
     opacity: 0.3;
   }
-  
+
   .featured .speakers .guide .image::before {
     top: -5px;
     left: -5px;
     opacity: 0.3;
   }
-  
+
   .featured .speakers .guide span {
     width: 70%;
     max-width: 300px;
@@ -40,7 +40,7 @@
     position: fixed;
     width: 100%;
   }
-  
+
   a {
     color: #ec5242;
   }
@@ -73,12 +73,17 @@
   .program-card:hover {
     border: 2px solid white;
   }
-  
+
   .left-content {
     display: flex;
     flex-direction: column;
     width: auto;
     text-align: center;
+  }
+
+  .right-content p {
+    text-align: center;
+    font-size: 15px;
   }
 
   .left-content li p {
@@ -88,11 +93,6 @@
 
   .right-content {
     width: 90%;
-  }
-
-  .right-content p {
-    text-align: center;
-    font-size: 15px;
   }
 
   .enroll-section {
