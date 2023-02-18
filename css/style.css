@@ -137,6 +137,14 @@
   padding-top: 30px;
 }
 
+.head-underline {
+  width: 5%;
+  margin: auto;
+  margin-top: 1%;
+  background-color: #ec5242;
+  height: 1.5px;
+}
+
 .program-card {
   width: 90%;
   margin: auto;

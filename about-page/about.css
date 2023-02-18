@@ -84,6 +84,15 @@
   margin: auto;
 }
 
+.head-underline-past {
+  width: 5%;
+  margin: auto;
+  margin-top: -4%;
+  margin-bottom: 2%;
+  background-color: #ec5242;
+  height: 1.5px;
+}
+
 .about-welcome {
   letter-spacing: 0.5ch;
   font-size: 20px;
