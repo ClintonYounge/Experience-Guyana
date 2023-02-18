@@ -65,7 +65,7 @@
 
 .patio {
   width: 100%;
-  background-image: url("/images/about-bg.png");
+  background-image: url("../images/about-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: max-content;
@@ -118,7 +118,7 @@
 }
 
 .main-program {
-  background-image: url("/images/main-bg.png");
+  background-image: url("../images/main-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: auto;
