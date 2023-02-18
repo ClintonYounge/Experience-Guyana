@@ -12,8 +12,6 @@
     margin: 10px 10px;
   }
 
-  
-
   .featured .speakers .guide .image::after {
     top: -5px;
     left: -5px;
@@ -151,17 +149,16 @@
   }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
   .right-content {
     width: 100%;
-  }
-  
-  .left-content li p {
-    font-size: 15px;
   }
 
   .right-content p {
     font-size: 12px;
   }
+  
+  .left-content li p {
+    font-size: 15px;
+  }
 }
-
