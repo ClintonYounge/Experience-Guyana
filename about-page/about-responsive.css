@@ -9,6 +9,20 @@
     width: 100%;
   }
 
+  .social-list {
+    margin-left: 66%;
+  }
+
+  .campaign {
+    padding: 1%;
+    color: #ec5242;
+    border: 3.5px solid #ec5242;
+  }
+
+  .campaign:hover {
+    cursor: pointer;
+  }
+
   .about-introduction {
     padding: 10% 0%;
   }
