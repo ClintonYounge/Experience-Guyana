@@ -74,7 +74,7 @@
 .introduction {
   width: 90%;
   margin: auto;
-  padding: 10% 0;
+  padding: 20% 0;
 }
 
 .title-div {
@@ -175,7 +175,7 @@
 }
 
 .right-content {
-  width: 60%;
+  width: 100%;
   margin: auto;
   color: white;
   font-size: 16px;
@@ -210,7 +210,7 @@
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   -moz-column-gap: 30px;
-  column-gap: 20%;
+  column-gap: 0%;
   row-gap: 50px;
   margin-bottom: 40px;
 }
@@ -225,7 +225,7 @@
 }
 
 .featured .speakers .guide img {
-  width: 150px;
+  width: 120px;
   margin-right: 15px;
   position: relative;
   transition: 0.3s ease-in-out;
@@ -262,7 +262,7 @@
 }
 
 .featured .speakers .guide span p {
-  font-size: 18px;
+  font-size: 15px;
   margin-top: 10px;
 }
 

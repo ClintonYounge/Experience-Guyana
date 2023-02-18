@@ -12,6 +12,8 @@
     margin: 10px 10px;
   }
 
+  
+
   .featured .speakers .guide .image::after {
     top: -5px;
     left: -5px;
@@ -46,6 +48,7 @@
   }
 
   .campaign {
+    display: none;
     padding: 1%;
     color: #ec5242;
     border: 3.5px solid #ec5242;
@@ -124,4 +127,41 @@
   .bottom-left img {
     margin-top: 2%;
   }
+
+  .featured .speakers .guide span p {
+    font-size: 16px;
+  }
 }
+
+@media screen and (min-width: 1100px) {
+  .featured .speakers .guide img {
+    width: 150px;
+  }
+
+  .featured .speakers .guide span p {
+    font-size: 18px;
+  }
+
+  .campaign {
+    display: block;
+  }
+
+  .featured .speakers {
+    column-gap: 20%;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .right-content {
+    width: 100%;
+  }
+  
+  .left-content li p {
+    font-size: 15px;
+  }
+
+  .right-content p {
+    font-size: 12px;
+  }
+}
+
