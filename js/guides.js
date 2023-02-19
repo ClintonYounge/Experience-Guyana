@@ -44,7 +44,7 @@ window.addEventListener('load', (() => {
   guidesArray.forEach((guide) => {
     content += `<div class="guide">
                 <div class="image">
-                    <img src="${guide.picture}" alt="Image of an Islamic speaker">
+                    <img src="${guide.picture}" alt="Image of guide">
                 </div>
                 <span>
                     <h4>${guide.name}</h4>
