@@ -58,7 +58,7 @@ A Microverse capstone project to create a unique addition to my portfolio!
 - [Experience Guyana](https://clintonyounge.github.io/Experience-Guyana/)
 
 > Below is a link to Loom explaining my project.
-- [My Loom Video](coming soon.)
+- [My Loom Video](https://www.loom.com/share/9181018ddb5444cab3f4bae0390d3b6b)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
